@@ -1,0 +1,394 @@
+.total{
+    height: 43rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav{
+    border: 2px solid white;
+    display: flex;
+    align-items: left;
+    color: white;
+    background-color: #127d76;
+    align-items: center;
+    height: 6rem;
+    width: 96rem;
+}
+.nav span{
+    font-size: 2rem;
+    margin-left: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#wel{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#ent{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 5rem;
+    font-weight: bold;
+}
+.main{
+    height: 52rem;  
+    width: 94rem;  
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+.section{
+    height: 38rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+    margin-left: 3rem;
+}
+.new{
+    width: 40rem;
+    height: 4rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.new button{
+    border: 2px solid white;
+    color: white;
+    background-color:rgb(11 121 224);
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.new button:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+#qsearch{
+    all: unset;
+    border: 1px solid rgb(96, 95, 95);
+    height: 2rem;
+}
+.form{
+    /* border: 2px solid green; */
+    height: 37rem; 
+    width: 55rem;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.form2{
+    display: flex;
+    height: 40rem;
+    align-items: left;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.formin{
+    height: 600rem;
+    width: 46rem;
+    display: flex;
+    flex-direction:column;
+    align-items:left;
+    justify-content: space-evenly;
+}
+.formin input{
+    all: unset;
+    border: 1px solid rgb(96, 95, 95);
+    width: 12rem;
+    height: 2rem;
+}
+.formin textarea{
+    all: unset;
+    border: 1px solid rgb(96, 95, 95);
+}
+.submit{
+    display: flex;
+    align-items:right;
+    justify-content: center;
+    padding-left: 36rem;
+}
+.submit button{
+    height: 2.5rem;
+    width: 6rem;
+    background-color:rgb(11 121 224);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.submit button:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+.subquest{
+    border: 1px solid rgb(96, 95, 95);
+    color: rgb(96, 95, 95);
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 5rem;
+    width: 38rem;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding-left: 1rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.qe{
+    height: 5rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: rgb(96, 95, 95);
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.qa{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    height: 8rem;
+    justify-content: space-evenly;
+    background-color: rgb(232, 230, 230);
+}
+.qa span{
+    color: rgb(96, 95, 95);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.addresponse{
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    height: 16rem;
+    justify-content: space-between;
+}
+.addresponse input{
+    height: 2rem;
+    all: unset;
+    border: 1px solid rgb(96, 95, 95);
+    font-size: 1.5rem;
+}
+.addresponse textarea{
+    height: 8rem;
+    font-size: 1.5rem;
+    border: 1px solid rgb(96, 95, 95);
+}
+.addresponse button{
+    width: 5rem;
+    margin-left: 33rem;
+    height: 2.3rem;
+    background-color:rgb(11 121 224);
+    color: white;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(11 121 224);
+}
+.addresponse button:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.addresponse span{
+    color: rgb(96, 95, 95);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#resolvebut{
+    width: 5rem;
+    margin-left: 32rem;
+    height: 2rem;
+    background-color:rgb(11 121 224);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 2px solid rgb(11 121 224);
+}
+#resolvebut:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+#spques{
+    margin-right: 34rem;
+    margin-bottom: 0.7rem;
+    color: rgb(96, 95, 95);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+.ansres{
+    width: 45rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-bottom: 1rem;
+    overflow: auto;
+}
+.jwb{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.2rem;
+    height: 3.3rem;
+    justify-content: space-between;
+    color: rgb(54 53 53);
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    background-color: rgb(218 214 214);
+    border-radius:0.5rem;
+}
+.reshead{
+    margin-bottom: 1rem;
+    font-size: large;
+    color: rgb(96, 95, 95);
+}
+.twrap{
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.extra{
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imp{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+.side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10rem;
+}
+.thumbsup{
+    width: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.upsub{
+    font-size: larger;
+    height: 2.5rem;
+}
+.highlight{
+    background-color: #eeeba6;
+}
+
+
+/* >>>>Responsive<<<< */
+
+@media (max-width:700px){
+    .total{
+        height: 125rem;
+    }
+    .nav{
+        margin-left: 63rem;
+        height: 10rem;
+    }
+    .nav span{
+        margin-left: 38rem;
+        font-size: 4rem;
+    }
+    .main{
+        flex-direction: column-reverse;
+        margin-left: 65rem;
+        margin-top: 5rem;
+        height: 100rem;
+    }
+    #wel{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+    #ent{
+        margin-left: 6rem;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .section{
+        margin-top: 5rem;
+        height: 60rem;
+    }
+    .sect2{
+        margin-top: 5rem;
+    }
+    .formin input{
+        height: 3.5rem;
+        width: 20rem;
+        margin-bottom: 3rem;
+        font-size: 1.5rem;
+    }
+    .formin textarea{
+        height: 24rem;
+        font-size: 1.5rem;
+    }
+    .form{
+        margin-bottom: 9rem;
+    }
+    .submit{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .submit button{
+        height: 3rem;
+        width:8rem;
+        font-size: 1.5rem;
+    }
+    .new button{
+        height: 5rem;
+        font-size:1.4rem;
+    }
+    #qsearch{
+        height: 4rem;
+        font-size:1.4rem;
+    }
+    .qa{
+        height: 15rem;
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+    #sbques{
+        font-size: 1.7rem;
+    }
+    #resolvebut{
+        height: 3rem;
+        width:8rem;
+        font-size: 1.5rem;
+    }
+    .addresponse{
+        margin-top: 15rem;
+        font-size: 3rem;
+    }
+    .addresponse input{
+        font-size: 2rem;
+        height: 3rem;
+    }
+    .addresponse textarea{
+        font-size: 2rem;
+        height: 25rem;
+        margin-bottom: 1.5rem;
+    }
+    .addresponse button{
+        height: 3rem;
+        width:8rem;
+        font-size: 1.5rem;
+    }
+    .reshead{
+        font-size: 2.5rem;
+    }
+    .ansres{
+        height: 13rem;
+    }
+}
